@@ -66,6 +66,7 @@ The namespace contains the following distribution functions:
 <div class="namespace-toc">
 
 -   <span class="signature">[`cdf( x, mu, sigma )`][@stdlib/stats/base/dists/lognormal/cdf]</span><span class="delimiter">: </span><span class="description">lognormal distribution cumulative distribution function.</span>
+-   <span class="signature">[`logcdf( x, mu, sigma )`][@stdlib/stats/base/dists/lognormal/logcdf]</span><span class="delimiter">: </span><span class="description">evaluate the natural logarithm of the cumulative distribution function (CDF) for a lognormal distribution.</span>
 -   <span class="signature">[`logpdf( x, mu, sigma )`][@stdlib/stats/base/dists/lognormal/logpdf]</span><span class="delimiter">: </span><span class="description">evaluate the natural logarithm of the probability density function (PDF) for a lognormal distribution.</span>
 -   <span class="signature">[`pdf( x, mu, sigma )`][@stdlib/stats/base/dists/lognormal/pdf]</span><span class="delimiter">: </span><span class="description">lognormal distribution probability density function (PDF).</span>
 -   <span class="signature">[`quantile( p, mu, sigma )`][@stdlib/stats/base/dists/lognormal/quantile]</span><span class="delimiter">: </span><span class="description">lognormal distribution quantile function.</span>
@@ -237,6 +238,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/base/dists/lognormal/variance]: https://github.com/stdlib-js/stats-base-dists-lognormal-variance
 
 [@stdlib/stats/base/dists/lognormal/cdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-cdf
+
+[@stdlib/stats/base/dists/lognormal/logcdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logcdf
 
 [@stdlib/stats/base/dists/lognormal/logpdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logpdf
 
