@@ -75,7 +75,7 @@
     "@stdlib/stats-base-dists-normal-cdf": "^0.0.7",
     "@stdlib/stats-base-dists-normal-logcdf": "^0.0.1",
     "@stdlib/stats-base-dists-normal-quantile": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/utils-constant-function": "^0.0.8",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.7",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
