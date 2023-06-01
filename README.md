@@ -24,38 +24,30 @@ limitations under the License.
 
 > Lognormal distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-lognormal
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-lognormal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var lognormal = require( 'path/to/vendor/umd/stats-base-dists-lognormal/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.lognormal;
-})();
-</script>
+var lognormal = require( '@stdlib/stats-base-dists-lognormal' );
 ```
 
 #### lognormal
@@ -135,21 +127,11 @@ var y = dist.cdf( 0.5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var lognormal = require( '@stdlib/stats-base-dists-lognormal' );
 
 console.log( objectKeys( lognormal ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -217,7 +199,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -237,33 +219,33 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/lognormal/ctor]: https://github.com/stdlib-js/stats-base-dists-lognormal-ctor/tree/umd
+[@stdlib/stats/base/dists/lognormal/ctor]: https://github.com/stdlib-js/stats-base-dists-lognormal-ctor
 
-[@stdlib/stats/base/dists/lognormal/entropy]: https://github.com/stdlib-js/stats-base-dists-lognormal-entropy/tree/umd
+[@stdlib/stats/base/dists/lognormal/entropy]: https://github.com/stdlib-js/stats-base-dists-lognormal-entropy
 
-[@stdlib/stats/base/dists/lognormal/kurtosis]: https://github.com/stdlib-js/stats-base-dists-lognormal-kurtosis/tree/umd
+[@stdlib/stats/base/dists/lognormal/kurtosis]: https://github.com/stdlib-js/stats-base-dists-lognormal-kurtosis
 
-[@stdlib/stats/base/dists/lognormal/mean]: https://github.com/stdlib-js/stats-base-dists-lognormal-mean/tree/umd
+[@stdlib/stats/base/dists/lognormal/mean]: https://github.com/stdlib-js/stats-base-dists-lognormal-mean
 
-[@stdlib/stats/base/dists/lognormal/median]: https://github.com/stdlib-js/stats-base-dists-lognormal-median/tree/umd
+[@stdlib/stats/base/dists/lognormal/median]: https://github.com/stdlib-js/stats-base-dists-lognormal-median
 
-[@stdlib/stats/base/dists/lognormal/mode]: https://github.com/stdlib-js/stats-base-dists-lognormal-mode/tree/umd
+[@stdlib/stats/base/dists/lognormal/mode]: https://github.com/stdlib-js/stats-base-dists-lognormal-mode
 
-[@stdlib/stats/base/dists/lognormal/skewness]: https://github.com/stdlib-js/stats-base-dists-lognormal-skewness/tree/umd
+[@stdlib/stats/base/dists/lognormal/skewness]: https://github.com/stdlib-js/stats-base-dists-lognormal-skewness
 
-[@stdlib/stats/base/dists/lognormal/stdev]: https://github.com/stdlib-js/stats-base-dists-lognormal-stdev/tree/umd
+[@stdlib/stats/base/dists/lognormal/stdev]: https://github.com/stdlib-js/stats-base-dists-lognormal-stdev
 
-[@stdlib/stats/base/dists/lognormal/variance]: https://github.com/stdlib-js/stats-base-dists-lognormal-variance/tree/umd
+[@stdlib/stats/base/dists/lognormal/variance]: https://github.com/stdlib-js/stats-base-dists-lognormal-variance
 
-[@stdlib/stats/base/dists/lognormal/cdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-cdf/tree/umd
+[@stdlib/stats/base/dists/lognormal/cdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-cdf
 
-[@stdlib/stats/base/dists/lognormal/logcdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logcdf/tree/umd
+[@stdlib/stats/base/dists/lognormal/logcdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logcdf
 
-[@stdlib/stats/base/dists/lognormal/logpdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logpdf/tree/umd
+[@stdlib/stats/base/dists/lognormal/logpdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-logpdf
 
-[@stdlib/stats/base/dists/lognormal/pdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-pdf/tree/umd
+[@stdlib/stats/base/dists/lognormal/pdf]: https://github.com/stdlib-js/stats-base-dists-lognormal-pdf
 
-[@stdlib/stats/base/dists/lognormal/quantile]: https://github.com/stdlib-js/stats-base-dists-lognormal-quantile/tree/umd
+[@stdlib/stats/base/dists/lognormal/quantile]: https://github.com/stdlib-js/stats-base-dists-lognormal-quantile
 
 <!-- </toc-links> -->
 
