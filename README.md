@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+lognormal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-lognormal/tags). For example,
+
+```javascript
 lognormal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var lognormal = require( 'path/to/vendor/umd/stats-base-dists-lognormal/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -151,7 +156,7 @@ var y = dist.cdf( 0.5 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
