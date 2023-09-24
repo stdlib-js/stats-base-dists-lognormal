@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@esm/index.mjs';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@esm/index.mjs';
+import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-esm/index.mjs';
 ```
 
 #### lognormal
@@ -135,7 +135,7 @@ var y = dist.cdf( 0.5 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@esm/index.mjs';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( lognormal ) );
 
