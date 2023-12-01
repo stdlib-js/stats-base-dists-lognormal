@@ -58,7 +58,7 @@
     "@stdlib/assert-is-nan": "^0.1.1",
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-positive-number": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-pi": "^0.1.1",
