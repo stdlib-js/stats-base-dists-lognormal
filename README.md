@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
+import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.2.0-deno/mod.js';
 ```
 
 #### lognormal
@@ -130,7 +130,7 @@ var y = dist.cdf( 0.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.2.0-deno/mod.js';
 
 console.log( objectKeys( lognormal ) );
 ```
