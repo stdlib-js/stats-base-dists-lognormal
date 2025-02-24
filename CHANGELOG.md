@@ -4,9 +4,407 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-02-24)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="stats-base-dists-lognormal-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/cdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-ctor-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/ctor)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-entropy-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/entropy)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/kurtosis)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-logcdf-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/logcdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/logpdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/mean)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-median-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/median)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/mode)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/pdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/quantile)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/skewness)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/stdev)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-lognormal-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/lognormal/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/lognormal/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7be886c`](https://github.com/stdlib-js/stdlib/commit/7be886c5eb2ff9894cc8088c1defb60eebd029b6) - add C implementation for `stats/base/dists/lognormal/variance` [(#3992)](https://github.com/stdlib-js/stdlib/pull/3992)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Karan Anand
+-   Philipp Burckhardt
+-   Saurabh Singh
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
+-   [`ae08a29`](https://github.com/stdlib-js/stdlib/commit/ae08a29eb928357ae97532f0c3f398b0fef58ebd) - **bench:** refactor random number generation in `stats/base/dists/lognormal` [(#5164)](https://github.com/stdlib-js/stdlib/pull/5164) _(by Saurabh Singh)_
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`1d5aa47`](https://github.com/stdlib-js/stdlib/commit/1d5aa47204c258b674d3db4aec92fbd2475e5ea7) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`7be886c`](https://github.com/stdlib-js/stdlib/commit/7be886c5eb2ff9894cc8088c1defb60eebd029b6) - **feat:** add C implementation for `stats/base/dists/lognormal/variance` [(#3992)](https://github.com/stdlib-js/stdlib/pull/3992) _(by Aayush Khanna)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
