@@ -2,14 +2,15 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-05-12)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`75a786a`](https://github.com/stdlib-js/stdlib/commit/75a786a2b83991e7f7bb5e26a9af1263bba83556) - add C implementation for `stats/base/dists/lognormal/pdf` [(#4529)](https://github.com/stdlib-js/stdlib/pull/4529)
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178)
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166)
 -   [`6ee07a4`](https://github.com/stdlib-js/stdlib/commit/6ee07a45b9f2a482a005bb8f2fdb8c72c6864ea2) - add C implementation for `stats/base/dists/lognormal/median` [(#4147)](https://github.com/stdlib-js/stdlib/pull/4147)
@@ -27,9 +28,9 @@
 
 ### Closed Issues
 
-A total of 9 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#3748](https://github.com/stdlib-js/stdlib/issues/3748), [#3749](https://github.com/stdlib-js/stdlib/issues/3749), [#3752](https://github.com/stdlib-js/stdlib/issues/3752), [#3753](https://github.com/stdlib-js/stdlib/issues/3753), [#3754](https://github.com/stdlib-js/stdlib/issues/3754), [#3757](https://github.com/stdlib-js/stdlib/issues/3757), [#3758](https://github.com/stdlib-js/stdlib/issues/3758), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#4979](https://github.com/stdlib-js/stdlib/issues/4979)
+[#3748](https://github.com/stdlib-js/stdlib/issues/3748), [#3749](https://github.com/stdlib-js/stdlib/issues/3749), [#3752](https://github.com/stdlib-js/stdlib/issues/3752), [#3753](https://github.com/stdlib-js/stdlib/issues/3753), [#3754](https://github.com/stdlib-js/stdlib/issues/3754), [#3755](https://github.com/stdlib-js/stdlib/issues/3755), [#3757](https://github.com/stdlib-js/stdlib/issues/3757), [#3758](https://github.com/stdlib-js/stdlib/issues/3758), [#3759](https://github.com/stdlib-js/stdlib/issues/3759), [#4979](https://github.com/stdlib-js/stdlib/issues/4979), [#6713](https://github.com/stdlib-js/stdlib/issues/6713), [#7452](https://github.com/stdlib-js/stdlib/issues/7452), [#9567](https://github.com/stdlib-js/stdlib/issues/9567)
 
 </section>
 
@@ -41,6 +42,23 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`5ee0c78`](https://github.com/stdlib-js/stdlib/commit/5ee0c781e82099b730ddd0126f888515b817b47c) - **test:** remove duplicate test cases in `stats/base/dists/lognormal` packages _(by Philipp Burckhardt)_
+-   [`2141b2f`](https://github.com/stdlib-js/stdlib/commit/2141b2f3469ee6e013716201f8e39e083d3676d3) - **bench:** update random value generation [(#9780)](https://github.com/stdlib-js/stdlib/pull/9780) _(by Harsh Yadav)_
+-   [`960af8f`](https://github.com/stdlib-js/stdlib/commit/960af8f193a0e7eaa20215e8ae231f943e825366) - **bench:** update random value generation [(#9781)](https://github.com/stdlib-js/stdlib/pull/9781) _(by Harsh Yadav)_
+-   [`a7a77a7`](https://github.com/stdlib-js/stdlib/commit/a7a77a7ba28bc0f55275db3a77a0117f0679b317) - **test:** remove duplicate NaN test cases in normal mean [(#9588)](https://github.com/stdlib-js/stdlib/pull/9588) _(by Suyash Pathak)_
+-   [`3b39228`](https://github.com/stdlib-js/stdlib/commit/3b39228e76a9586ede35c2c128939f21c6982d09) - **docs:** replace manual `for` loop in examples [(#8263)](https://github.com/stdlib-js/stdlib/pull/8263) _(by Harsh Yadav)_
+-   [`fd24b4a`](https://github.com/stdlib-js/stdlib/commit/fd24b4a9cd4322a1d32b552c92f81f506afda44e) - **chore:** address commit comments [(#8067)](https://github.com/stdlib-js/stdlib/pull/8067) _(by Vara Rahul Rajana)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`21b2d73`](https://github.com/stdlib-js/stdlib/commit/21b2d735baed33328aae9f499ab3d3733b776e54) - **chore:** address commit comments for commit `75a786a` [(#7679)](https://github.com/stdlib-js/stdlib/pull/7679) _(by Anmol Sah)_
+-   [`0a23889`](https://github.com/stdlib-js/stdlib/commit/0a23889dd55afcd8f1a85cd208a2397c931637bd) - **test:** increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`75a786a`](https://github.com/stdlib-js/stdlib/commit/75a786a2b83991e7f7bb5e26a9af1263bba83556) - **feat:** add C implementation for `stats/base/dists/lognormal/pdf` [(#4529)](https://github.com/stdlib-js/stdlib/pull/4529) _(by Nishchay Rajput, Philipp Burckhardt)_
+-   [`bde1562`](https://github.com/stdlib-js/stdlib/commit/bde156258f0e182fa6cf50f9bdd907ba8593dbf0) - **chore:** clean-up _(by Athan Reines)_
+-   [`eb555e4`](https://github.com/stdlib-js/stdlib/commit/eb555e4097f20ab99054945e55b44a9f795f0cf7) - **chore:** clean-up _(by Athan Reines)_
 -   [`47d4dfa`](https://github.com/stdlib-js/stdlib/commit/47d4dfa8f8fbbb256aaeca77dfe522cae618ea47) - **feat:** add C implementation for `stats/base/dists/lognormal/entropy` [(#4178)](https://github.com/stdlib-js/stdlib/pull/4178) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`736fe31`](https://github.com/stdlib-js/stdlib/commit/736fe3118504faef9a2b6ac064debe426c8f9a24) - **feat:** add C implementation for `stats/base/dists/lognormal/skewness` [(#4166)](https://github.com/stdlib-js/stdlib/pull/4166) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`6ee07a4`](https://github.com/stdlib-js/stdlib/commit/6ee07a45b9f2a482a005bb8f2fdb8c72c6864ea2) - **feat:** add C implementation for `stats/base/dists/lognormal/median` [(#4147)](https://github.com/stdlib-js/stdlib/pull/4147) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
@@ -67,14 +85,19 @@ A total of 9 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Anmol Sah
 -   Athan Reines
+-   Harsh Yadav
 -   Karan Anand
 -   Manvith M
+-   Nishchay Rajput
 -   Philipp Burckhardt
 -   Saurabh Singh
+-   Suyash Pathak
+-   Vara Rahul Rajana
 -   Vivek Maurya
 
 </section>
