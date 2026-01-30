@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-lognormal/tags). For example,
+
+```javascript
 import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.3.0-deno/mod.js';
+import { LogNormal, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
 ```
 
 #### lognormal
@@ -130,7 +135,7 @@ var y = dist.cdf( 0.5 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@v0.3.0-deno/mod.js';
+import lognormal from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal@deno/mod.js';
 
 console.log( objectKeys( lognormal ) );
 ```
