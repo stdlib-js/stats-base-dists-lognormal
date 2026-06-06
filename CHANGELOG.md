@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
@@ -15,6 +15,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e): rename class to use camel case
+
+    -   To migrate, users should replace `Lognormal` with `LogNormal`.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -34,6 +46,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`59ab38e`](https://github.com/stdlib-js/stdlib/commit/59ab38ed2a7a6f96f5773e0a4b7a889ddef912bf) - **docs:** update `stats/base/dists/lognormal` TypeScript declarations [(#12607)](https://github.com/stdlib-js/stdlib/pull/12607) _(by stdlib-bot)_
+-   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e) - **refactor:** correct class name casing in `base/dists/lognormal/ctor` [(#12499)](https://github.com/stdlib-js/stdlib/pull/12499) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`b517ce1`](https://github.com/stdlib-js/stdlib/commit/b517ce16f647ffe2270573dff57755fe7ba69027) - **docs:** propagate description and example fixes in `stats/base/dists/*` [(#12132)](https://github.com/stdlib-js/stdlib/pull/12132) _(by Philipp Burckhardt)_
+-   [`81c4786`](https://github.com/stdlib-js/stdlib/commit/81c478690aac530a21505bae986e75ba5689aaf4) - **docs:** add negative-scale `@example` to `stats/base/dists/lognormal/cdf` [(#12093)](https://github.com/stdlib-js/stdlib/pull/12093) _(by Philipp Burckhardt)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`9fedcf9`](https://github.com/stdlib-js/stdlib/commit/9fedcf9679b2d3f8a90d30d4706634adf7ddbf73) - **docs:** fix parameter descriptions in `stats/base/dists/lognormal` [(#11829)](https://github.com/stdlib-js/stdlib/pull/11829) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
