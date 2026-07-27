@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-07-27)
 
 <section class="features">
 
 ### Features
 
+-   [`48157fa`](https://github.com/stdlib-js/stdlib/commit/48157fa9f40922efe577aaa2d2a7b1eb2a28dd96) - add C implementation for `stats/base/dists/lognormal/logcdf` [(#10882)](https://github.com/stdlib-js/stdlib/pull/10882)
+-   [`c2fcbc0`](https://github.com/stdlib-js/stdlib/commit/c2fcbc0e51871744c2c42464051f45c030fdc936) - add C implementation for `stats/base/dists/lognormal/cdf` [(#10809)](https://github.com/stdlib-js/stdlib/pull/10809)
+-   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881)
 -   [`abe64bf`](https://github.com/stdlib-js/stdlib/commit/abe64bfa1e6f04fa49979532f45f38c64a2239ff) - add C implementation for `lognormal/quantile` [(#10148)](https://github.com/stdlib-js/stdlib/pull/10148)
 
 </section>
@@ -32,9 +35,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3756](https://github.com/stdlib-js/stdlib/issues/3756)
+[#3747](https://github.com/stdlib-js/stdlib/issues/3747), [#3756](https://github.com/stdlib-js/stdlib/issues/3756)
 
 </section>
 
@@ -46,6 +49,16 @@ This release closes the following issue:
 
 <details>
 
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`2cee50a`](https://github.com/stdlib-js/stdlib/commit/2cee50a75da1437551b91682b8785dbae8ab897f) - **docs:** update Markdown equation elements [(#13547)](https://github.com/stdlib-js/stdlib/pull/13547) _(by stdlib-bot, Athan Reines)_
+-   [`36ee366`](https://github.com/stdlib-js/stdlib/commit/36ee366130c07464017ccf0b49b9645a8f644a5f) - **chore:** clean-up [(#13539)](https://github.com/stdlib-js/stdlib/pull/13539) _(by Philipp Burckhardt)_
+-   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
+-   [`1c6fea0`](https://github.com/stdlib-js/stdlib/commit/1c6fea0027204331d9152f97079bc4a0a0957a2d) - **style:** fix variable order _(by Athan Reines)_
+-   [`48157fa`](https://github.com/stdlib-js/stdlib/commit/48157fa9f40922efe577aaa2d2a7b1eb2a28dd96) - **feat:** add C implementation for `stats/base/dists/lognormal/logcdf` [(#10882)](https://github.com/stdlib-js/stdlib/pull/10882) _(by Kamal Singh Rautela, Philipp Burckhardt)_
+-   [`c2fcbc0`](https://github.com/stdlib-js/stdlib/commit/c2fcbc0e51871744c2c42464051f45c030fdc936) - **feat:** add C implementation for `stats/base/dists/lognormal/cdf` [(#10809)](https://github.com/stdlib-js/stdlib/pull/10809) _(by Bhargav Dabhade, Neeraj Pathak)_
+-   [`151e6e9`](https://github.com/stdlib-js/stdlib/commit/151e6e94f4491c50441f8ad8399ce20bd44564d4) - **feat:** add C implementation for `stats/base/dists/lognormal/logpdf` [(#10881)](https://github.com/stdlib-js/stdlib/pull/10881) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
+-   [`60a4b85`](https://github.com/stdlib-js/stdlib/commit/60a4b8520b6f93a86c9f949a93c150bcd698d62d) - **refactor:** rename internal variables [(#12925)](https://github.com/stdlib-js/stdlib/pull/12925) _(by Philipp Burckhardt)_
 -   [`59ab38e`](https://github.com/stdlib-js/stdlib/commit/59ab38ed2a7a6f96f5773e0a4b7a889ddef912bf) - **docs:** update `stats/base/dists/lognormal` TypeScript declarations [(#12607)](https://github.com/stdlib-js/stdlib/pull/12607) _(by stdlib-bot)_
 -   [`594bb70`](https://github.com/stdlib-js/stdlib/commit/594bb702605bb473be30d637ae25cb3d8d95c97e) - **refactor:** correct class name casing in `base/dists/lognormal/ctor` [(#12499)](https://github.com/stdlib-js/stdlib/pull/12499) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
@@ -70,10 +83,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Bhargav Dabhade
+-   Kamal Singh Rautela
 -   Mara Averick
+-   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Siddhartha Mondal
