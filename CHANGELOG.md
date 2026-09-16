@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-16)
 
 <section class="features">
 
@@ -18,6 +18,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`f51d7fe`](https://github.com/stdlib-js/stdlib/commit/f51d7fed453924f3d346c8591c5542dfa9955c5d) - avoid overflow and duplicate computation [(#14446)](https://github.com/stdlib-js/stdlib/pull/14446)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -49,6 +59,14 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`8d88ac1`](https://github.com/stdlib-js/stdlib/commit/8d88ac12695a417eb5645d9f5cc4ebffa89870e7) - **test:** migrate `stats/base/dists/lognormal/median` to ULP-based assertions [(#15206)](https://github.com/stdlib-js/stdlib/pull/15206) _(by Athan Reines)_
+-   [`5406750`](https://github.com/stdlib-js/stdlib/commit/54067508555f2133874dd8464c36f7e1c536eff2) - **docs:** fix return values [(#14704)](https://github.com/stdlib-js/stdlib/pull/14704) _(by Philipp Burckhardt)_
+-   [`2d14261`](https://github.com/stdlib-js/stdlib/commit/2d14261e1266c938f2df562113443ae11942ec1e) - **test:** migrate `stats/base/dists/lognormal/stdev` to ULP-based assertions [(#14816)](https://github.com/stdlib-js/stdlib/pull/14816) _(by Athan Reines)_
+-   [`171ff1b`](https://github.com/stdlib-js/stdlib/commit/171ff1bcd784b658c6af0c486d1f36280bca468b) - **test:** migrate `stats/base/dists/lognormal/entropy` to ULP-based assertions [(#14635)](https://github.com/stdlib-js/stdlib/pull/14635) _(by Athan Reines)_
+-   [`f51d7fe`](https://github.com/stdlib-js/stdlib/commit/f51d7fed453924f3d346c8591c5542dfa9955c5d) - **fix:** avoid overflow and duplicate computation [(#14446)](https://github.com/stdlib-js/stdlib/pull/14446) _(by Philipp Burckhardt)_
+-   [`32b7f5e`](https://github.com/stdlib-js/stdlib/commit/32b7f5e8b90aff7eed891cd8e8227b35f649c0fc) - **test:** migrate `stats/base/dists/lognormal/pdf` to ULP-based assertions [(#14272)](https://github.com/stdlib-js/stdlib/pull/14272) _(by Athan Reines)_
+-   [`af0c6b6`](https://github.com/stdlib-js/stdlib/commit/af0c6b67ada2bab7296e693588b4d7e04c41ae3f) - **docs:** fix C API parameter descriptions [(#14134)](https://github.com/stdlib-js/stdlib/pull/14134) _(by Philipp Burckhardt)_
+-   [`3f3fce8`](https://github.com/stdlib-js/stdlib/commit/3f3fce8c869a5f1ef3898964964ae8cfad803894) - **test:** migrate `stats/base/dists/lognormal/variance` to ULP-based assertions [(#14069)](https://github.com/stdlib-js/stdlib/pull/14069) _(by Athan Reines)_
 -   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2cee50a`](https://github.com/stdlib-js/stdlib/commit/2cee50a75da1437551b91682b8785dbae8ab897f) - **docs:** update Markdown equation elements [(#13547)](https://github.com/stdlib-js/stdlib/pull/13547) _(by stdlib-bot, Athan Reines)_
