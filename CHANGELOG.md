@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-11-02)
 
 <section class="features">
 
@@ -59,6 +59,15 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`02a2c18`](https://github.com/stdlib-js/stdlib/commit/02a2c18140c91c23adaea88d9d2d89f6b884babd) - **test:** migrate `stats/base/dists/lognormal/logpdf` to ULP-based assertions [(#16248)](https://github.com/stdlib-js/stdlib/pull/16248) _(by Athan Reines)_
+-   [`ff5c948`](https://github.com/stdlib-js/stdlib/commit/ff5c9483ad90abf8b6dea08b49aef1f1e3b9c494) - **test:** migrate `stats/base/dists/lognormal/kurtosis` to ULP-based assertions (#16106) [(#16106)](https://github.com/stdlib-js/stdlib/pull/16106) _(by Philipp Burckhardt, Athan Reines)_
+-   [`51a4592`](https://github.com/stdlib-js/stdlib/commit/51a4592d4c1af4490fed804bff591bce973cf0a4) - **docs:** fix parameter descriptions [(#16083)](https://github.com/stdlib-js/stdlib/pull/16083) _(by Philipp Burckhardt)_
+-   [`d8e2378`](https://github.com/stdlib-js/stdlib/commit/d8e2378393a8082aa3baf4fa18ebe67e83a43977) - **test:** migrate `stats/base/dists/lognormal/logcdf` to ULP-based assertions [(#15965)](https://github.com/stdlib-js/stdlib/pull/15965) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5b8d729`](https://github.com/stdlib-js/stdlib/commit/5b8d7294b7ea3a484b4e6b138bae89dd7cb1877c) - **test:** tighten fixture tolerances in `stats/base/dists/lognormal/pdf` [(#15577)](https://github.com/stdlib-js/stdlib/pull/15577) _(by Karan Anand)_
+-   [`e31c1f8`](https://github.com/stdlib-js/stdlib/commit/e31c1f8df4408de58fcb64fe67a454cb1846b0b5) - **test:** migrate `stats/base/dists/lognormal/quantile` to ULP-based assertions [(#15321)](https://github.com/stdlib-js/stdlib/pull/15321) _(by Athan Reines)_
+-   [`ad2a07e`](https://github.com/stdlib-js/stdlib/commit/ad2a07e55bb31dd4815e4bf07e7baaf7c24e0d6c) - **test:** migrate `stats/base/dists/lognormal/skewness` to ULP-based assertions [(#15381)](https://github.com/stdlib-js/stdlib/pull/15381) _(by Philipp Burckhardt, Athan Reines)_
+-   [`44ed853`](https://github.com/stdlib-js/stdlib/commit/44ed853ad0a2dd88ec15819ab832ebd825fab515) - **test:** migrate `stats/base/dists/lognormal/mean` to ULP-based assertions [(#15353)](https://github.com/stdlib-js/stdlib/pull/15353) _(by Athan Reines)_
+-   [`2f4fe5a`](https://github.com/stdlib-js/stdlib/commit/2f4fe5aca4bea45dc27d2544941b651c31489eb2) - **test:** migrate `stats/base/dists/lognormal/mode` to ULP-based assertions [(#15309)](https://github.com/stdlib-js/stdlib/pull/15309) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8d88ac1`](https://github.com/stdlib-js/stdlib/commit/8d88ac12695a417eb5645d9f5cc4ebffa89870e7) - **test:** migrate `stats/base/dists/lognormal/median` to ULP-based assertions [(#15206)](https://github.com/stdlib-js/stdlib/pull/15206) _(by Athan Reines)_
 -   [`5406750`](https://github.com/stdlib-js/stdlib/commit/54067508555f2133874dd8464c36f7e1c536eff2) - **docs:** fix return values [(#14704)](https://github.com/stdlib-js/stdlib/pull/14704) _(by Philipp Burckhardt)_
 -   [`2d14261`](https://github.com/stdlib-js/stdlib/commit/2d14261e1266c938f2df562113443ae11942ec1e) - **test:** migrate `stats/base/dists/lognormal/stdev` to ULP-based assertions [(#14816)](https://github.com/stdlib-js/stdlib/pull/14816) _(by Athan Reines)_
@@ -101,11 +110,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Mara Averick
 -   Neeraj Pathak
 -   Om-A-osc
